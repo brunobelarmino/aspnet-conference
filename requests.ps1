@@ -1,4 +1,9 @@
 ﻿$uris = @(
+ "http://localhost:61880/api/log",
+ "http://localhost:61880/api/log-get",
+ "http://localhost:61880/api/log-asp",
+ "http://localhost:61880/api/log-net",
+ "http://localhost:61880/api/log-conf",
  "http://localhost:61880/api/log-log",
  "http://localhost:61880/api/log-a"
 )
