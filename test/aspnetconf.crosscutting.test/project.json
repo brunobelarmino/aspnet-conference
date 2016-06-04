@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "NETStandard.Library": "1.5.0-rc2-24027",
+    "xunit": "2.1.0",
+    "dotnet-test-xunit": "1.0.0-*",
+    "NEST": "2.3.2",
+    "moq.netcore": "4.4.0-beta8",
+    "aspnetconf.crosscutting": "1.0.0-*",
+    "Microsoft.AspNetCore.Http": "1.0.0-rc2-final"
+  },
+  "testRunner": "xunit",
+  "frameworks": {
+    "net461": { }
+  }
+}

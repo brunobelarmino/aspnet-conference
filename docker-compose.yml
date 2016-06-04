@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+  kibana:
+    image: kibana:4.5.1
+    container_name: aspnetconference.dashboard
+    ports: 
+      - "5601:5601"
+    environment:
+      ELASTICSEARCH_URL: http://aspnetconference.search:9200
+
+  elastic:
+    image: elasticsearch:2.3.3
+    container_name: aspnetconference.search
+    ports: 
+      - "9200:9200"
+
+networks:
+  default:
